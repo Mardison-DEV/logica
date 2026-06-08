@@ -4,7 +4,14 @@ for (let a = "@"; a <= "@@@@@@@@@@@@"; a += "@"){
         console.log(a)
 }
 
-//for (let a = 1; a <=5; a++){
-//    console.log(1);
+for (let b = 1; b <=10; b++){
+        if (b === 3)
+        continue;
+        if (b === 6)
+        continue;
+        if (b === 9)
+                continue;
 
-//}
+    console.log(b);
+}
+

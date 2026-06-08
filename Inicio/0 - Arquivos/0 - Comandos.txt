@@ -1,0 +1,19 @@
+git pull origin main - Comando para sincronizar atualizações de outras máquinas
+
+git pull origin main
+
+
+Saber o que mudou antes de baixar:
+
+
+git fetch origin
+git log HEAD..origin/main --oneline
+
+!!!Se tiver alterações locais não commitadas, o Git pode bloquear o pull. Opções:
+
+================================================
+
+
+for (let a = "@"; a <= "@@@@@@@@@@@@"; a += "@") = usado mais para string = "+="
+
+for (let a = 1; a <=5; a++) = usado mais quando for números = "a++"

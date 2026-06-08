@@ -5,6 +5,7 @@ let nota = 12;
     default:
     console.log("Nota inválida!");
     break;
+    
         case 10:
         case 9:
         case 8:
