@@ -17,3 +17,80 @@ git log HEAD..origin/main --oneline
 for (let a = "@"; a <= "@@@@@@@@@@@@"; a += "@") = usado mais para string = "+="
 
 for (let a = 1; a <=5; a++) = usado mais quando for números = "a++"
+
+
+===============================================================
+
+Sempre que quiser trazer o que está no GitHub:
+
+cd C:\Users\mardison.barbosa\Documents\Curso\Curso_Logica
+git pull origin main
+
+------------------------------------------------------
+Esse é o comando principal: baixa do GitHub para cá.
+
+================================================================
+
+Quando você alterar algo nesta máquina
+Para enviar de volta ao GitHub (e depois puxar na outra):
+
+git add .
+git commit -m "Descrição do que fez"
+git push origin main
+
+=================================================================
+
+**Pronto — os arquivos já estão na sua máquina.**
+
+Rodei estes comandos na sua pasta:
+
+```powershell
+cd C:\Users\mardison.barbosa\Documents\Curso\Curso_Logica
+git remote add origin https://github.com/Mardison-DEV/logica.git
+git pull origin main
+```
+
+**Resultado:** 51 arquivos baixados, incluindo toda a pasta `Inicio/` (Operadores, Funções, Estrutura de controle, etc.). O último commit é `Estudos 07.06.2026`.
+
+Abra a pasta `Inicio` no explorador de arquivos do Cursor para ver tudo.
+
+---
+
+## Da próxima vez (quando a outra máquina enviar algo novo)
+
+Sempre que quiser trazer o que está no GitHub:
+
+```powershell
+cd C:\Users\mardison.barbosa\Documents\Curso\Curso_Logica
+git pull origin main
+```
+
+Esse é o comando principal: **baixa do GitHub para cá**.
+
+---
+
+## Quando você alterar algo nesta máquina
+
+Para enviar de volta ao GitHub (e depois puxar na outra):
+
+```powershell
+git add .
+git commit -m "Descrição do que fez"
+git push origin main
+```
+
+---
+
+**Resumo do fluxo entre as duas máquinas:**
+
+| Ação                             | Comando                                                      |
+|----------------------------------|---------                                                     |
+                                   |
+| Trazer do GitHub → esta máquina  | git pull origin main
+                                   |
+| Enviar desta máquina → GitHub    | `git add .` → `git commit -m "..."` → `git push origin main` |
+
+
+Tradução: 
+Pull -> Puxar = Extrair = Colher
+push -> Empurrar = Forçar = Enviar
