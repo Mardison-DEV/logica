@@ -35,7 +35,7 @@ Quando você alterar algo nesta máquina
 Para enviar de volta ao GitHub (e depois puxar na outra):
 
 git add .
-git commit -m "Descrição do que fez"
+git commit -m "Final_Curso"
 git push origin main
 
 =================================================================
